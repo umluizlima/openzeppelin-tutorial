@@ -120,3 +120,4 @@ dist
 # Hardhat
 artifacts
 cache
+secrets.json
