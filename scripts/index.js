@@ -11,7 +11,14 @@ async function main () {
   const box = await Box.attach(address);
 
   // Call the retrieve() function of the deployed Box contract
-  const value = await box.retrieve();
+  let value = await box.retrieve();
+  console.log('Box value is', value.toString());
+
+  // Send a transaction to store() a new value in the Box
+  await box.store(23);
+
+  // Call the retrieve() function of the deployed Box contract
+  value = await box.retrieve();
   console.log('Box value is', value.toString());
 }
 
