@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/umluizlima/openzeppelin-tutorial/issues"
   },
-  "homepage": "https://github.com/umluizlima/openzeppelin-tutorial#readme"
+  "homepage": "https://github.com/umluizlima/openzeppelin-tutorial#readme",
+  "devDependencies": {
+    "hardhat": "^2.6.7"
+  }
 }
