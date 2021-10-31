@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/umluizlima/openzeppelin-tutorial#readme",
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@openzeppelin/contracts": "^4.3.2",
+    "ethers": "^5.5.1",
     "hardhat": "^2.6.7"
   }
 }
